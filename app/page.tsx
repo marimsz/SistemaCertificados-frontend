@@ -18,7 +18,7 @@ export default function Home() {
  async function gerarCertificado() {
   console.log(dados)
 
-  const resposta = await fetch("http://localhost:5000/certificado",{
+  const resposta = await fetch("https://sistemacertificados-k3p4.onrender.com/",{
   method:"POST",
   headers:{
     "Content-Type":"application/json"
